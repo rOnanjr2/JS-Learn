@@ -1,0 +1,52 @@
+body{
+	background-color: darkgrey;
+}
+
+main{
+	width: 500px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 12pt;
+	background-color: white;
+	padding: 20px;
+}
+
+form fieldset p{
+	text-align: right;
+	margin: 4px;
+}
+
+form fieldset p label{
+	margin-right: 50px;
+}
+
+form fieldset p label input{
+	margin-left: 25px;
+}
+
+form fieldset p label select{
+	width: 180px;
+	height: 23px;
+	margin-left: 25px;
+}
+
+form fieldset p label input{
+	width: 172px;
+}
+
+fieldset{
+	border-color: #ccc;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+}
+
+legend{
+	padding: 0 20px 0 20px;
+	color: #003665;
+}
+
+legend, .bold{
+	font-weight: bold;
+}

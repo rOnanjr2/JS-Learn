@@ -1,0 +1,16 @@
+.article p{
+    line-height: 2px;
+}
+
+button{
+    cursor: pointer;
+}
+
+textarea{
+    display: block;
+    resize: none;
+    margin-bottom: 10px;
+}
+.inputNumber {
+    width: 268px;
+  }

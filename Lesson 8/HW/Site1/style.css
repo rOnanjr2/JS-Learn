@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 930px;
+    margin: 0 auto;
+    margin-top: 16px;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 1px;
+}
+
+nav{
+    height: 31px;
+    width: 709px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #95d72f;
+}
+
+nav a{
+    padding: 5px 9px;
+    color: white;
+    font-size: 18px;
+    border-left: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navSpacer{
+    width: 59px;
+}
+
+.mainEvent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 46px;
+}
+
+.mainEvent .underText{
+    display: flex;
+    align-items: flex-end;
+    height: 25px;
+    margin: 0;
+    margin-top: -4px;
+    background-color: #95d14b;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.eventText{
+    color: #979797;
+    padding-left: 18px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 24pt;
+    line-height: 26px;
+}
+
+h3{
+    margin-top: 5px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.eventText p{
+    margin-top: 17px;
+    padding-right: 15px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.news{
+    color: #979797;
+    margin-top: 12px;
+}
+
+.newsCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsCard{
+    margin-top: 19px;
+    width: 220px;
+
+}
+
+.time{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.description{
+    margin-top: 9px;
+}
+
+.readMore{
+    display: block;
+    color: #000;
+}
+
+.readMore:after{
+    content: "\00BB";
+    margin-left: 10px;
+    font-size: 26px;
+    color: #cacaca;
+}
+
+
+/* .overlayCheck{
+    position: relative;
+    left: -50px;
+}
+
+.overlayCheck:checked + .overlay{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.overlay{
+    display: none;
+} */

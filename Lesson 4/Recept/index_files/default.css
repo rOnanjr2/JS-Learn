@@ -1,0 +1,105 @@
+body {
+	margin-top: 30px;
+}
+
+.content a {
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+main {
+	position: absolute;
+	left: 320px;
+	/*border: 5px solid red;*/
+	display: block;
+	margin: 0 auto;
+}
+
+.content a{
+	display: block;
+	width: 220px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border-left: 5px solid 	#0057b8;
+	padding: 2px 5px;
+	box-shadow: 2px -2px 5px 0 rgb(0 0 0 / 10%),
+				-2px -2px 5px 0 rgb(0 0 0 / 10%),
+				2px 2px 5px 0 rgb(0 0 0 / 10%),
+				-2px 2px 5px 0 rgb(0 0 0 / 10%);
+	transition: 1s;
+}
+
+.content a:nth-child(even) {
+	border-color: #ffd700;
+}
+
+.content a:first-child {
+	border-radius: 0px 10px 0px 0px;
+}
+
+.content a:last-child {
+	border-radius: 0px 0px 10px 0px;
+}
+
+.content a:hover {
+	width: 235px;
+	/*background-color: LightGrey;*/
+	outline: 1px solid grey;
+	border-radius: 0px 10px 10px 0px;
+
+}
+.content {
+	list-style: none;
+}
+.receipt-name {
+	margin: 0;
+	margin-bottom: 10px;
+	color: grey;
+}
+
+.ingredients {
+	display: inline-block;
+	width: 250px;
+	margin: 0;
+	padding-right: 20px;
+	padding-bottom: 10px;
+/*	border:1px solid black;*/
+}
+
+.receipt-body {
+	padding: 10px;
+	padding-left: 20px;
+	margin: 0;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+.decor {
+	margin-bottom: 5px;
+	min-height: 100px;
+	/*border:1px solid black;*/
+}
+
+.receipt {
+	margin: 0 auto;
+	width: 720px;
+	margin-bottom: 20px;
+	border-bottom: 5px solid grey;
+	border-radius: 0 30px;
+}
+
+.receipt-img {
+	width: 400px;
+	height: 100px;
+	float: right;
+	border-radius: 10px 30px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	/*border:1px solid black;*/
+}

@@ -1,0 +1,15 @@
+.menu{
+	background-color: rgb(125, 29, 252);
+	font-family: Arial;
+	display: flex;
+}
+
+a{
+	color: White;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.active{
+	background-color: lightgreen;
+}

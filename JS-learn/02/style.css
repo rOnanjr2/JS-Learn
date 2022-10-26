@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #000;
+}
+
+main{
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.default{
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+    background-image: url(img/def.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.wolf{background-image: url(img/wolf.jpg);}
+.safe{background-image: url(img/safe.png);}
+.polar{background-image: url(img/polar.webp);}
+.odich{background-image: url(img/odich.jpg);}
+.fox{background-image: url(img/fox.jpg);}
+.river{background-image: url(img/river.jpg);}
+.net{background-image: url(img/net.png);}
+.cave{background-image: url(img/cave.jpg);}
+.mamonth{background-image: url(img/mamonth.jpg);}

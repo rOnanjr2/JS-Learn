@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style1.css">
+	<title>Form1</title>
+</head>
+<body>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Personal information</legend>
+				<p><label class="bold">*First name:<input type="text"></label></p>
+				<p><label>Middle name:<input type="text"></label></p>
+				<p><label class="bold">*Last name:<input type="text"></label></p>
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<legend>Addres</legend>
+				<p><label>Addres:<input type="text"></label></p>
+				<p><label>City or Town:<input type="text"></label></p>
+				<p>
+					<label>State:
+						<select name="state" id="state">
+							<option selected disabled>Choose a State</option>
+							<option value="texas">Texas</option>
+							<option value="utah">Utah</option>
+							<option value="vermont">Vermont</option>
+						</select>
+					</label>
+				</p>
+				<p><label class="bold">* Zip code:<input type="number"></label></p>
+			</fieldset>
+		</form>
+	</main>
+</body>
+</html>

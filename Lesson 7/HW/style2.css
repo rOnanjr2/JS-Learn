@@ -1,0 +1,158 @@
+*{
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	background: radial-gradient(
+		circle,
+		rgb(140, 201, 228),
+		rgb(77, 170, 210));
+}
+
+.auth{
+	background-color: #fff;
+	width: 350px;
+	height: 245px;
+	margin: 0 auto;
+	margin-top: calc(100vh / 2 - 150px);
+	border-radius: 4px;
+	outline: 8px solid rgba(0, 0, 0, 0.06);
+}
+
+header{
+	color: #555;
+	border-radius: 4px 4px 0 0;
+	text-align: center;
+	border-bottom: 1px solid #cfcfcf;
+	height: 40px;
+	background: linear-gradient(
+          180deg,
+          rgba(255,255,255,1),
+          rgba(240,240,240,1));
+}
+
+header h4{
+	padding-top: 12px;
+	margin: 0;
+}
+
+form>input{
+	padding: 9px;
+	display: block;
+	margin: 30px auto;
+	width: 300px;
+	outline: 5px solid #f1f4f7;
+	border: 1px solid #c4c4c4;
+	border-radius: 1px;
+	box-shadow: inset 0px 0px 5px #d1d1d1;
+}
+
+::placeholder{
+	color: #d1d1d1;
+}
+
+#remember{
+	display: none;
+}
+
+label::before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #9c9c9a;
+	border-radius: 3px;
+	position: absolute;
+	left: -19px;
+	bottom: 2px;
+	background: linear-gradient(
+          180deg,
+          #fff,
+          #f3f3f3);
+}
+
+#remember:checked + label::after{
+	content: "\2714";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -3.5px;
+	left: -17.5px;
+	color: #777777;
+	font-size: 12pt;
+}
+
+
+.checkIcon{
+	position: absolute;
+	/*display: none;*/
+}
+
+.remember{
+	float: left;
+	position: relative;
+	left: 39px;
+	top: 4px;
+	color: #777777;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.auth p{
+	display: block;
+	margin: 0 auto;
+}
+
+.btn{
+	position: relative;
+	top: -5px;
+	left: 74px;
+	height: 31px;
+	width: 73px;
+	border: 1px solid #bbcccf;
+	border-radius: 15px;
+		background: linear-gradient(
+          180deg,
+          #edf4f8,
+          #d2e6ef);
+}
+
+.btn:hover{
+	cursor: pointer;
+	background: linear-gradient(
+		180deg,
+		#edf4f8,
+		#fff);
+}
+
+footer{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 37px;
+	font-size: 12px;
+}
+
+footer a{
+	color: #d2dae0;
+	text-decoration: none;
+}
+
+
+
+.auth::after{
+	content:'';
+	display: block;
+	width: 580px;
+	height: 340px;
+	border: 1px solid #000;
+	background-image: url("form2.png");
+	opacity: 0.5;
+	position: relative;
+	top: -284px; /*284*/
+	left: -119px;
+}

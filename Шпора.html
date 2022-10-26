@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+
+
+
+Если флоат выпадает из потока - дать его родителю класс clearfix. Классы можно чеез пробел
+
+<style>
+	.clearfix::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+</style>
